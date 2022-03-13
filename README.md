@@ -3,7 +3,7 @@
 
 MovieSearch is an imdb clone web app, used to search movies online. This project is made using OMDB API, from this api, web pages fetches all movies data which the user has searches. User can view detailed information of any movie from the search rsults. Once the user has searched a movie all releted movies will be displayed on their home page, from there user can either view detail information of particular movie or liked the move. Yes this project do have favorite movie page which contains all the movies which the user has liked.
 
-You can try this webPage from here 
+You can try this webPage here
 
 ## Features
 
@@ -31,11 +31,11 @@ Home Page
 Search Result
 ![image](https://drive.google.com/uc?export=view&id=1zjLmt05OPul8ds6BioBJgLnGHaFiSLFq)
 
-Movie Info Page
-![image](https://drive.google.com/uc?export=view&id=1jpTQOGHCSPYnViZEfJCWXzjxQeVRs7FM)
+<!-- Movie Info Page -->
+<!-- ![image](https://drive.google.com/uc?export=view&id=1jpTQOGHCSPYnViZEfJCWXzjxQeVRs7FM) -->
 
-Movie Info Page
-![image](https://drive.google.com/uc?export=view&id=1WEykafKg9URQtc9OpFFHgTh4qhxjZ5xV)
+<!-- Movie Info Page -->
+<!-- ![image](https://drive.google.com/uc?export=view&id=1WEykafKg9URQtc9OpFFHgTh4qhxjZ5xV) -->
 
 Favorite Movies List Page
 ![image](https://drive.google.com/uc?export=view&id=1j9OkIndpoyRCa0FJ7MtnQqa6ODg8lSqn)
