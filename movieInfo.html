@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="moviestyle.css">
+</head>
+<body>
+    <header>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- header contains link of home page and favourite movies page -->
+        <a href="index.html"><button class="h-box" type="default">Home</button></a>
+        <a href="favmovie.html" target="_blank"><button class="h-box" type="default">Favorites Movies</button></a>
+    </header>
+    <h1 id="heading">Movie Info</h1>
+    <!-- this div will contain all the informations which the user wants to see -->
+    <!-- only the movie that user has clicked, will be shown here -->
+    <div id="movie-container">
+        <!-- it will contain the poster of movie -->
+        <div id="poster-container">
+            <img id="poster">
+        </div>
+        <!-- title and plot -->
+        <h1 id="title">Title : &nbsp;</h1><h1 id="name"></h1>
+        <p id="plot" style="color: white; font-size: 2rem; margin-top: -10px;"></p>
+
+        <!-- table is used to display all other basic info regarding movie -->
+        <table style="width: 100%; text-align: center;">
+            <tr>
+                <!-- languahe -->
+                <td class="title-head">Language :</td>
+                <td class="title-body" id="language"></td>
+            </tr>
+            <tr>
+                <!-- genre -->
+                <td class="title-head">Genre :</td>
+                <td class="title-body" id="genre"></td>
+            </tr>
+            <tr>
+                <!-- duration -->
+                <td class="title-head">Duration :</td>
+                <td class="title-body" id="duration"></td>
+            </tr>
+            <tr>
+                <!-- actors -->
+                <td class="title-head">Actors :</td>
+                <td class="title-body" id="actors"></td>
+            </tr>
+            <tr>
+                <!-- director -->
+                <td class="title-head">Director :</td>
+                <td class="title-body" id="director"></td>
+            </tr>
+            <tr>
+                <!-- writer -->
+                <td class="title-head">Writer</td>
+                <td class="title-body" id="writer"></td>
+            </tr>
+            <tr>
+                <!-- release year -->
+                <td class="title-head">Release-Year</td>
+                <td class="title-body" id="year"></td>
+            </tr>
+            <tr>
+                <!-- release date -->
+                <td class="title-head">Release-Date</td>
+                <td class="title-body" id="release"></td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+    </div>
+    <script src="moviescript.js"></script>
+</body>
+</html>
