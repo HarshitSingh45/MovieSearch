@@ -49,7 +49,7 @@ function searchMovie(e){
         console.log('Error');
     }
     //  url of api on which we are requesting for info
-    var apiurl = 'http://www.omdbapi.com/?apikey=9a845526&s='+movieName;
+    var apiurl = 'https://www.omdbapi.com/?apikey=9a845526&s='+movieName;
     // using get request to fetch all movies related to the users search
     xhrRequest.open('get',apiurl);
     xhrRequest.send();
